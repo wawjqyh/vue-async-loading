@@ -1,9 +1,22 @@
 {
   "name": "vue-async-loading",
-  "version": "1.1.0",
+  "description": "Using vuex to manage the loading state of asynchronous methods",
+  "homepage": "https://github.com/wawjqyh/vue-async-loading",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wawjqyh/vue-async-loading.git"
+  },
+  "version": "1.1.3",
   "author": "Troy",
   "license": "ISC",
-  "main": "dist/index.umd.js",
+  "main": "src/index.js",
+  "keywords": [
+    "async",
+    "vue",
+    "vuex",
+    "methods",
+    "loading"
+  ],
   "scripts": {
     "build": "vue-cli-service build --target lib --name index src/index.js"
   },
